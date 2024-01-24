@@ -1,7 +1,8 @@
 name: custom_shape_progress_indicator
 description: "A simple package for custom shape progress indicator"
 version: 0.0.1
-homepage:
+homepage: https://github.com/badshah-badmas/custom_shape_progress_indicator
+
 
 environment:
   sdk: '>=3.2.5 <4.0.0'

@@ -80,16 +80,13 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CustomShapeProgressIndicator(
-              progressLineThickness: 2,
-              progressLineColor: Colors.accents[(_counter * 10).toInt()],
-              borderRadius: 100,
               progress: _counter,
               child: Container(
+                padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: Colors.amber.withOpacity(0.2)),
-                height: 50,
-                width: 100,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Text('This is a progress indicator'),
               ),
             )
           ],
