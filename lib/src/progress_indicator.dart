@@ -111,10 +111,8 @@ class _CustomShapeProgressIndicatorState
   @override
   Widget build(BuildContext context) {
     return CustomPaint(
-      size: Size(50, 50),
       painter: _backgroundShapePainter(context),
       child: CustomPaint(
-        size: Size(40, 10),
         painter: _progressLinePainter(context),
         child: widget.child,
       ),
