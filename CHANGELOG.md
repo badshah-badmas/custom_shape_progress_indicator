@@ -2,3 +2,8 @@
 
 * Initial release
 * Rectangle progress indicator
+
+## 0.0.2
+
+* Platform support added
+* Dependencies updated
