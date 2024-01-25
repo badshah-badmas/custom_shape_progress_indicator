@@ -1,11 +1,11 @@
 name: custom_shape_progress_indicator
 description: "A simple package for a custom-shaped progress indicator with multi-platform support"
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/badshah-badmas/custom_shape_progress_indicator
 
 
 environment:
-  sdk: '>=3.2.5 <4.0.0'
+  sdk: '>=3.2.3 <4.0.0'
   flutter: ">=3.16.5"
 
 dependencies:
